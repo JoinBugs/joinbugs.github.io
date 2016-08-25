@@ -3,9 +3,7 @@ layout: post
 title: Patrones de diseño en JavaScript
 ---
 
-Por que es muy bueno que conoscamos algunos de los estandares
-ya creados y probados por algunos programadores, 
-por que deberias saberlo!!!??
+Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
