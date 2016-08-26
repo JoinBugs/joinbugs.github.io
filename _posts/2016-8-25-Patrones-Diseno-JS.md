@@ -39,7 +39,8 @@ window es el objecto global que tenemos por default en interprete de nuestro nav
 si se dirijen a la consola de su navegador y pegan esto deberia imprimir los valores correspondientes de cada propiedad, como se dieron cuenta en las lineas donde se imprime el valor de las variables correspondiente al comentario "sin especificar el objeto global", da el resultado comun que se esperaria, y en el caso de las lineas correspondiente al comentario "espefificando al objeto global window" __!hace exactamente lo mismo!__ esto se debe a que una vez credas las varibles deben forzosamente tener como padre al objeto global window y ahi son agregadas es por ello que podemos acceder a ellas con la notacion de punto *__a window tambien se le conoce como el contexto general__*
 
 ### Inconvenientes con el objeto global window
-Muchas de las ocaciones cuando somos primerisos en el mundo de js y comenzamos a codear no sabemos que agregamos al contexto global las propiedades que definimos globalmente en el script, a continuacion listare algunas de las concecuencias que tiene esto: 
+Muchas de las ocaciones cuando somos primerisos en el mundo de js y comenzamos a codear no sabemos que agregamos al contexto global las propiedades que definimos globalmente en el script, a continuacion listare algunas de las concecuencias que tiene esto:
+
 * [Incongruencia en nuestro codigo](#incongruencia)
 * El rango de identificadores para nuestras propiedades globales queda limitado 
 * Dificil depuracion
