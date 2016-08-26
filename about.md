@@ -17,7 +17,7 @@ __Programación nivel medio__: Python, C#, Java, Android.
 __Conocimiento en Tecnologías__: HTML5, CSS3, Ajax, DOM, JSON, WebServices  2.0, ASP .NET, Windows Forms, Django, JSP, MySQL, BATCH.  
 __Arquitecturas o Estilos de Arquitectura__: MVC, DAO, REST, Híbridos.  
 __Herramientas__: Git, Mockup Builder.   
-__Nivel de inglés__: Básico 
+__Nivel de inglés__: Intermedio 
 
 ---
 
