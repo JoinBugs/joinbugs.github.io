@@ -18,6 +18,7 @@ es pues una manera estandarisada que por ende esta probada y que deberiamos toma
 
 ### El Objeto Global window
 window es el objecto global que tenemos por default en interprete de nuestro navegador eso quiere decir que todas las funciones, objetos y variables que creemos seran por default añadidos a window es decir window sera el objeto padre de todo lo que definamos en nuestro script, para muestra un ejemplo:
+
 ```javascript
     var myName  = 'Andres',
         age     = 22;
