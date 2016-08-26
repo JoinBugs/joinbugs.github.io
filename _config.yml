@@ -6,7 +6,7 @@
 name: Andres
 
 # Short bio or description (displayed in the header)
-description: I am an apassioned for the web technologies, like HTML 5, CSS3 but in a special case JavaScript, i love the frameworks because i think that get the best of you.
+description: El conocimiento no debe tener un precio economico, pero mas sin embaro el esfuerzo propio de cada persona para adquirirlo es un costo por cual vale la pena pagar
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/9272201?v=3&s=460
@@ -29,8 +29,8 @@ footer-links:
   twitter: _BugSweet_
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
+  googleplus: 100453829693112381211
+  sqljudge: 'Cornejo'
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
