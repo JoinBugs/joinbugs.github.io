@@ -7,7 +7,7 @@ permalink: /me/
 __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a special case JavaScript, i love the frameworks because i think that get the best of you.*__
 
 ---
-## Mi Perfil
+### Mi Perfil
 
 __Sistemas Operativos__ nivel medio: Windows, GNU-Linux/Deepin.  
 __Ofimática nivel medio__: Word, PowerPoint, Excel.  
