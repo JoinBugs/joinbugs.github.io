@@ -46,6 +46,7 @@ Muchas de las ocaciones cuando somos primerisos en el mundo de js y comenzamos a
 
 ### <a name="incongruencia">Incongruencia en nuestro codigo</a>  
 Para muestra un ejemplo:
+
 ```javascript
   // hace una suma de dos numero
     function doSuma( a, b ){
@@ -63,6 +64,7 @@ Para muestra un ejemplo:
    }
    console.log( doSuma( 4, 5 ) ); // 0
 ```
+
 Que pasa con este codigo, se definen dos funciones de suma, la primera recibe dos parametros y la segunda tres, ambas funciones suman cada parametro que le fue definido en cada funcion y ambas se mandan llamar con los mismos valores pasados como argumentos, el resultado en ambos llamados es el mismo pero no pareciera ser el esperado.
 
 Tal vez estan pensando pero oye como se te ocurre definir dos funciones con el mismo nombre es obvio que eso esta mal, y eso es relativamente correcto, pero para intentar explicar esto dare un poco de contexto acerca de un ejemplo real, digamos que tienes un escript y este lleve muchas lineas de codigo o incluso tu tengas que trabajar con el script de otras personas y en este hayan sido definidas todas las propiedades globales en el contexto global window, puede ocurrir que tu definas una funcion con un identificador igual a una que ya exista y esto proboque como en el ejemplo de arriba una incronguencia en el codigo.
@@ -79,6 +81,7 @@ Claro que podras pensar pues doy ctrl + f y busco si ya existe ese identificador
 En otra entrada del blog hare una introducciona este patron de diseño en JS pero para el tema que abordamos en esta entrada bastara con solo decir que todo lo que pongan dentro de este patron no se agregara al objeto global window y esa seria una forma de abordar el problema planteado un poco mas [arriba](#incongruencia).
 
 Ejemplo aplicable
+
 ```javascript
     (function(){
         var myName  = 'Andres',
