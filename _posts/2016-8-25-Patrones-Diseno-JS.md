@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Patrones de diseño en JavaScript
+published: true
 ---
 
-#### Por que es muy bueno que conoscamos algunos de los estandare ya creados y probados por algunos programadores, !por que deberias saberlo!...
+#### Porque es muy bueno que conozcamos algunos de los estándares ya creados y probados por algunos programadores, !por qué deberías saberlo!…
 
 ![_config.yml]({{ site.baseurl }}/images/js.png)
 
-Cuando uno se adentra al mundo de JS, leyendo tutoriales, siguiendo videos en youtube, es decir siendo autodidacta, como dios manda claro, muchas de las veces llegamos al punto en el que tenemos tantas maneras de hacer una misma cosa que empezamos a hacer codigo [espagueti][1]{:target="_blank"}.
+Cuando uno se adentra al mundo de JS, leyendo tutoriales, siguiendo videos en youtube, es decir siendo autodidacta, como dios manda claro, muchas de las veces llegamos al punto en el que tenemos tantas maneras de hacer una misma cosa que empezamos a hacer código [espagueti][1]{:target="_blank"}.
 
 Aqui es ese momento cuando deberiamos darnos cuenta que necesitamos un patron de diseño, algo que nos de una limpia y clara arquitectura para empezar nuestras apps. dentro de lo
 que yo entiendo como un patron de diseño, dare la propia definicion como sigue:
