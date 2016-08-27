@@ -72,7 +72,7 @@ Tal vez están pensando pero oye como se te ocurre definir dos funciones con el 
 
 Claro que podrás pensar pues doy ctrl + f y busco si ya existe ese identificador, pero para evitarnos siempre estar haciendo esto y dejar de vivir con el miedo de si ya existe ese identificador, Usar un patrón de diseño nos puede ahorrar mucho tiempo de desarrollo y una manera práctica y estandarizada de hacer nuestro código más limpio, modular y fácil de leer.
 
-### Funcion Anonima Interna Autoejecutable, Por que no un nombre mas largo..
+### Funcion Anónima Interna Autoejecutable, Por que no un nombre más largo..
 ```javascript
     (function(){
         //tu scope queda protejido
