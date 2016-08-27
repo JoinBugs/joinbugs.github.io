@@ -69,6 +69,7 @@ Para muestra un ejemplo:
 Que pasa con este código, se definen dos funciones de suma, la primera recibe dos parámetros y la segunda tres, ambas funciones suman cada parámetro que le fue definido en cada función y ambas se mandan llamar con los mismos valores pasados como argumentos, el resultado en ambos llamados es el mismo pero no pareciera ser el esperado.
 
 Tal vez están pensando pero oye como se te ocurre definir dos funciones con el mismo nombre es obvio que eso está mal, y eso es relativamente correcto, pero para intentar explicar esto daré un poco de contexto acerca de un ejemplo real, digamos que tienes un escript y este lleve muchas líneas de código o incluso tu tengas que trabajar con el script de otras personas y en este hayan sido definidas todas las propiedades globales en el contexto global window, puede ocurrir que tu definas una función con un identificador igual a una que ya exista y esto provoqué como en el ejemplo de arriba una incongruencia en el código.
+
 Claro que podrás pensar pues doy ctrl + f y busco si ya existe ese identificador, pero para evitarnos siempre estar haciendo esto y dejar de vivir con el miedo de si ya existe ese identificador, Usar un patrón de diseño nos puede ahorrar mucho tiempo de desarrollo y una manera práctica y estandarizada de hacer nuestro código más limpio, modular y fácil de leer.
 
 ### Funcion Anonima Interna Autoejecutable, Por que no un nombre mas largo..
