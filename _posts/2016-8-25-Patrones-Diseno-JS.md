@@ -39,7 +39,7 @@ Window es el objeto global que tenemos por default en interprete de nuestro nave
 Si se dirigen a la consola de su navegador y pegan esto debería imprimir los valores correspondientes de cada propiedad, como se dieron cuenta en las líneas donde se imprime el valor de las variables correspondiente al comentario “sin especificar el objeto global”, da el resultado común que se esperaría, y en el caso de las líneas correspondiente al comentario "especificando al objeto global window"  __!hace exactamente lo mismo!__ esto se debe a que una vez creadas las variables deben forzosamente tener como padre al objeto global window y ahí son agregadas es por ello que podemos acceder a ellas con la notación de punto *__a window también se le conoce como el contexto general__*
 
 ### Inconvenientes con el objeto global window
-Muchas de las ocaciones cuando somos primerisos en el mundo de js y comenzamos a codear no sabemos que agregamos al contexto global las propiedades que definimos globalmente en el script, a continuacion listare algunas de las concecuencias que tiene esto:
+Muchas de las ocasiones cuando somos primerizos en el mundo de js y comenzamos a codear no sabemos que agregamos al contexto global las propiedades que definimos globalmente en el script, a continuación listare algunas de las consecuencias que tiene esto:
 
 * [Incongruencia en nuestro codigo](#incongruencia)
 * El rango de identificadores para nuestras propiedades globales queda limitado 
