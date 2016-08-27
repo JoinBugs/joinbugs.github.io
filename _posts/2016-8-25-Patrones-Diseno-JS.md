@@ -10,9 +10,8 @@ published: true
 
 Cuando uno se adentra al mundo de JS, leyendo tutoriales, siguiendo videos en youtube, es decir siendo autodidacta, como dios manda claro, muchas de las veces llegamos al punto en el que tenemos tantas maneras de hacer una misma cosa que empezamos a hacer código [espagueti][1]{:target="_blank"}.
 
-Aqui es ese momento cuando deberiamos darnos cuenta que necesitamos un patron de diseño, algo que nos de una limpia y clara arquitectura para empezar nuestras apps. dentro de lo
-que yo entiendo como un patron de diseño, dare la propia definicion como sigue:
-*Un Patron de diseño es una manera abstracta, modular y probrada que intenta evitar repetirte en el codigo([DRY][2]{:target="_blank"}) y que resuelve problemas comunes.*
+Aquí es ese momento cuando deberíamos darnos cuenta que necesitamos un patrón de diseño, algo que nos dé una limpia y clara arquitectura para empezar nuestras apps. Dentro de lo que yo entiendo como un patrón de diseño, daré la propia definición como sigue:
+*Un Patrón de diseño es una manera abstracta, modular y probada que intenta evitar repetirte en el código ([DRY][2]{:target="_blank"}) y que resuelve problemas comunes..*
 
 Para mi eso enfoca lo que es un patron de diseño pero aqui les dejo un link para una definicion mas detallada [Patrones de diseño][3]{:target="_blank"}
 es pues una manera estandarisada que por ende esta probada y que deberiamos tomar como marco de referencia cuando codeamos en JS, intentare explicar mas a detalle dando ejemplos del por que deberiamos seguir una arquitectura limpia, pero para ser un poco mas claro dare antes una pequeña introduccion a algunas de las bases de JS
