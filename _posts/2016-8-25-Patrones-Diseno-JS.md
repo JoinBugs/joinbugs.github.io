@@ -13,11 +13,11 @@ Cuando uno se adentra al mundo de JS, leyendo tutoriales, siguiendo videos en yo
 Aquí es ese momento cuando deberíamos darnos cuenta que necesitamos un patrón de diseño, algo que nos dé una limpia y clara arquitectura para empezar nuestras apps. Dentro de lo que yo entiendo como un patrón de diseño, daré la propia definición como sigue:
 *Un Patrón de diseño es una manera abstracta, modular y probada que intenta evitar repetirte en el código ([DRY][2]{:target="_blank"}) y que resuelve problemas comunes..*
 
-Para mi eso enfoca lo que es un patron de diseño pero aqui les dejo un link para una definicion mas detallada [Patrones de diseño][3]{:target="_blank"}
-es pues una manera estandarisada que por ende esta probada y que deberiamos tomar como marco de referencia cuando codeamos en JS, intentare explicar mas a detalle dando ejemplos del por que deberiamos seguir una arquitectura limpia, pero para ser un poco mas claro dare antes una pequeña introduccion a algunas de las bases de JS
+Para mí eso enfoca lo que es un patrón de diseño pero aquí les dejo un link para una definición más detallada [Patrones de diseño][3]{:target="_blank"}
+es pues una manera estandarizada que por ende está probada y que deberíamos tomar como marco de referencia cuando codeamos en JS, intentare explicar más a detalle dando ejemplos del por qué deberíamos seguir una arquitectura limpia, pero para ser un poco más claro daré antes una pequeña introducción a algunas de las bases de JS
 
 ### El Objeto Global window
-window es el objecto global que tenemos por default en interprete de nuestro navegador eso quiere decir que todas las funciones, objetos y variables que creemos seran por default añadidos a window es decir window sera el objeto padre de todo lo que definamos en nuestro script, para muestra un ejemplo:
+Window es el objeto global que tenemos por default en interprete de nuestro navegador eso quiere decir que todas las funciones, objetos y variables que creemos serán por default añadidos a window es decir window será el objeto padre de todo lo que definamos en nuestro script, para muestra un ejemplo:
 
 ```javascript
     var myName  = 'Andres',
@@ -36,7 +36,7 @@ window es el objecto global que tenemos por default en interprete de nuestro nav
     console.log( window.age );
     console.log( window.getMyInfo() );
 ```
-si se dirijen a la consola de su navegador y pegan esto deberia imprimir los valores correspondientes de cada propiedad, como se dieron cuenta en las lineas donde se imprime el valor de las variables correspondiente al comentario "sin especificar el objeto global", da el resultado comun que se esperaria, y en el caso de las lineas correspondiente al comentario "espefificando al objeto global window" __!hace exactamente lo mismo!__ esto se debe a que una vez credas las varibles deben forzosamente tener como padre al objeto global window y ahi son agregadas es por ello que podemos acceder a ellas con la notacion de punto *__a window tambien se le conoce como el contexto general__*
+Si se dirigen a la consola de su navegador y pegan esto debería imprimir los valores correspondientes de cada propiedad, como se dieron cuenta en las líneas donde se imprime el valor de las variables correspondiente al comentario “sin especificar el objeto global”, da el resultado común que se esperaría, y en el caso de las líneas correspondiente al comentario "especificando al objeto global window"  __!hace exactamente lo mismo!__ esto se debe a que una vez creadas las variables deben forzosamente tener como padre al objeto global window y ahí son agregadas es por ello que podemos acceder a ellas con la notación de punto *__a window también se le conoce como el contexto general__*
 
 ### Inconvenientes con el objeto global window
 Muchas de las ocaciones cuando somos primerisos en el mundo de js y comenzamos a codear no sabemos que agregamos al contexto global las propiedades que definimos globalmente en el script, a continuacion listare algunas de las concecuencias que tiene esto:
