@@ -8,7 +8,7 @@ __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a speci
 
 ---
 
-### He Aqui un poquito con lo que he trabajado
+### He aquí un poquito con lo que he trabajado
 
 __Sistemas Operativos__ nivel medio: Windows, GNU-Linux/Deepin.  
 __Ofimática nivel medio__: Word, PowerPoint, Excel.  
@@ -25,9 +25,9 @@ __Nivel de inglés__: Intermedio
 
 <form action="https://formspree.io/buggerdeveloper@gmail.com"
       method="POST">
-    <input class="form-control" type="text" name="name" placeholder="Aqui tu Nombre, Porfavor" > <br/>
+    <input class="form-control" type="text" name="name" placeholder="Aqui tu nombre, porfavor" > <br/>
     <input class="form-control"  type="email" name="_replyto" placeholder="Seria Genial, Si pudieras regalarme tu email aqui"> <br/>
-    <label for="asunto">  <strong> En que puedo ayudar te? </strong> </label>
-    <textarea placeholder="Descripcion"  class="form-control" name="asunto" id="asunto" cols="30" rows="10"></textarea> <br/>
+    <label for="asunto">  <strong> En que puedo ayudarte? </strong> </label>
+    <textarea placeholder="Adelante, porfavor comentame..."  class="form-control" name="asunto" id="asunto" cols="30" rows="10"></textarea> <br/>
     <input class="btn btn-info"  type="submit" value="Enviar">
 </form>
