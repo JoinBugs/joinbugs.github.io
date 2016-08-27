@@ -41,11 +41,11 @@ Si se dirigen a la consola de su navegador y pegan esto debería imprimir los va
 ### Inconvenientes con el objeto global window
 Muchas de las ocasiones cuando somos primerizos en el mundo de js y comenzamos a codear no sabemos que agregamos al contexto global las propiedades que definimos globalmente en el script, a continuación listare algunas de las consecuencias que tiene esto:
 
-* [Incongruencia en nuestro codigo](#incongruencia)
+* [Incongruencia en nuestro código](#incongruencia)
 * El rango de identificadores para nuestras propiedades globales queda limitado 
 * Dificil depuracion
 
-### <a name="incongruencia">Incongruencia en nuestro codigo</a>  
+### <a name="incongruencia">Incongruencia en nuestro código</a>  
 Para muestra un ejemplo:
 
 ```javascript
