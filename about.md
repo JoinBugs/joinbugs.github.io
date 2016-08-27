@@ -23,4 +23,11 @@ __Nivel de inglés__: Intermedio
 
 ### Contactame
 
-[cornejo.cruz.andres@gmail.com](mailto:email@domain.com)
+<form action="https://formspree.io/buggerdeveloper@gmail.com"
+      method="POST">
+    <input class="form-control" type="text" name="name" placeholder="Tu Nombre" > <br/>
+    <input class="form-control"  type="email" name="_replyto" placeholder="Tu Email"> <br/>
+    <label for="asunto">Asunto</label><br/>
+    <textarea class="form-control" name="asunto" id="asunto" cols="30" rows="10"></textarea> <br/>
+    <input class="btn btn-info"  type="submit" value="Enviar">
+</form>
