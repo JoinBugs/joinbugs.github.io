@@ -25,9 +25,9 @@ __Nivel de inglés__: Intermedio
 
 <form action="https://formspree.io/buggerdeveloper@gmail.com"
       method="POST">
-    <input class="form-control" type="text" name="name" placeholder="Tu Nombre" > <br/>
-    <input class="form-control"  type="email" name="_replyto" placeholder="Tu Email"> <br/>
-    <label for="asunto">Asunto</label><br/>
-    <textarea class="form-control" name="asunto" id="asunto" cols="30" rows="10"></textarea> <br/>
+    <input class="form-control" type="text" name="name" placeholder="Aqui tu Nombre, Porfavor" > <br/>
+    <input class="form-control"  type="email" name="_replyto" placeholder="Seria Genial, Si pudieras regalarme tu email aqui"> <br/>
+    <label for="asunto">  <strong> En que puedo ayudar te? </strong> </label>
+    <textarea placeholder="Descripcion"  class="form-control" name="asunto" id="asunto" cols="30" rows="10"></textarea> <br/>
     <input class="btn btn-info"  type="submit" value="Enviar">
 </form>
