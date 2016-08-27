@@ -101,7 +101,7 @@ Ejemplo aplicable
         console.log( window.age ); // undefined
         console.log( window.getMyInfo() ); //window.getMyInfo is not a function
 ```
-Para finalizar como se puede ver, al imprimir los valores de cada propiedad dentro de la función anónima interna autoejecutable, los resultados son los esperados, pero fuera de esta al intentar imprimir sus valores nos arroja que están indefinidos y en una última instancia, que incluso la función **getMyInfo** no existe, esto gracias a nuestro patrón que ***se encarga de protejer nuestro [scope][4]{:target="_blank"} es decir el alcance que tienen nuestras variables en nuestro codigo, de esa forma nunca se agregaran al objeto global window***.
+Para finalizar como se puede ver, al imprimir los valores de cada propiedad dentro de la función anónima interna autoejecutable, los resultados son los esperados, pero fuera de esta al intentar imprimir sus valores nos arroja que están indefinidos y en una última instancia, que incluso la función **getMyInfo** no existe, esto gracias a nuestro patrón que ***se encarga de proteger nuestro [scope][4]{:target="_blank"} es decir el alcance que tienen nuestras variables en nuestro codigo, de esa forma nunca se agregaran al objeto global window***.
 
 Este patron es muy util a la hora de cuidar el scope de nuestras propiedades y nos evita el estar agregando cada propiedad que definamos al scope global window, bueno espero que les sea de utilidad esta entrada, y ha codear se ha dicho..
 
