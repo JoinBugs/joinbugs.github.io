@@ -79,7 +79,7 @@ Claro que podrás pensar pues doy ctrl + f y busco si ya existe ese identificado
         //aqui tu codigo...
     })();
 ```
-En otra entrada del blog hare una introducciona este patron de diseño en JS pero para el tema que abordamos en esta entrada bastara con solo decir que todo lo que pongan dentro de este patron no se agregara al objeto global window y esa seria una forma de abordar el problema planteado un poco mas [arriba](#incongruencia).
+En otra entrada del blog hare una introduccion a este patron de diseño en JS pero para el tema que abordamos en esta entrada bastara con solo decir que todo lo que pongan dentro de este patron no se agregara al objeto global window y esa seria una forma de abordar el problema planteado un poco mas [arriba](#incongruencia).
 
 Ejemplo aplicable
 
