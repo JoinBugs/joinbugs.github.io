@@ -28,6 +28,72 @@ permalink: /me/
   transform : rotate( 1turn );
 }
 
+#tblTecs tr td:first-child
+{
+  border-radius : 1px;
+  position: relative;
+  display: inline-block;
+  width : 350px;
+  border-top : none;
+  padding : 10px;
+  box-shadow: 0px 0px 5px rgba( 0, 90, 200, .8 ) inset;
+  border : 1px solid rgba( 0, 90, 200, .8 );
+  margin : 2px;
+  cursor : pointer;
+  transition : all .8s ease;
+}
+
+#tblTecs tr td:first-child:hover
+{
+  background-color : rgba( 0, 90, 200, .8 );
+  color : white;
+}
+
+#tblTecs tr td
+{
+  padding : 0px 8px;
+}
+
+#tblTecs tr td.empty, #tblTecs tr td.empty:hover
+{
+  cursor : inherit;
+  border : none;
+  box-shadow: none;
+  background-color : initial;
+}
+
+#contentDom
+{
+  background-color : rgba( 0, 0, 0, .1 );
+}
+
+#contentDom .dom-block
+{
+  margin : 0 2px;
+  display: inline-block;
+  padding : 6px;
+}
+
+#contentDom .dom:first-child .dom-block
+{
+  border : 1px solid rgba( 200, 90, 0, .7 );
+  box-shadow : 0px 0px 2px rgba( 200, 90, 0, .7 ) inset;
+}
+
+#contentDom .dom:nth-last-child(2) .dom-block
+{
+  border : 1px solid rgba( 0, 200, 90, .7 );
+  box-shadow : 0px 0px 2px rgba( 0, 200, 90, .7 ) inset;
+}
+
+#contentDom .dom:last-child .dom-block
+{
+  border : 1px solid rgba( 0, 90, 255, .7 );
+  box-shadow : 0px 0px 2px rgba( 0, 90, 255, .7 ) inset;
+}
+
+
+
 </style>
 
 __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a special case JavaScript, i love the frameworks because i think that get the best of you.*__
@@ -50,15 +116,26 @@ __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a speci
 ---
 
 ### He aquí un poquito con lo que he trabajado
+<table id="tblTecs">
+    <tbody>
+        <tr><td>Sistemas Operativos</td><td>Windows</td><td>GNU-Linux/Deepin</td></tr>
+        <tr><td>Ofimática nivel medio</td><td>Word</td><td>PowerPoint</td> <td>Excel</td></tr>
+        <tr><td>Programación nivel avanzado</td><td>JavaScript</td></tr>
+        <tr><td>Programación nivel medio</td><td>Python</td><td>C#</td><td>Java</td><td>Android</td></tr>
+        <tr><td>Conocimiento en Tecnologías</td><td>HTML5</td><td>CSS3</td><td>Ajax</td><td>DOM</td><td>JSON</td><td>WebServices</td></tr>
+        <tr><td class="empty"></td><td>ASP.NET</td><td>Windows Form</td><td>Django</td><td>JSP</td><td>MySQL</td><td>BATCH</td></tr>
+        <tr><td>Arquitecturas o Estilos de Arquitectura</td><td>MVC</td><td>DAO</td><td>REST</td><td>Híbridos</td></tr>
+        <tr><td>Herramientas</td><td>Git</td><td>Mockup Builder</td></tr>
+        <tr><td>Nivel de inglés</td><td>Intermedio</td></tr>
+    </tbody>
+</table>
 
-__Sistemas Operativos__ nivel medio: Windows, GNU-Linux/Deepin.  
-__Ofimática nivel medio__: Word, PowerPoint, Excel.  
-__Programación nivel avanzado__: JavaScript.  
-__Programación nivel medio__: Python, C#, Java, Android.  
-__Conocimiento en Tecnologías__: HTML5, CSS3, Ajax, DOM, JSON, WebServices  2.0, ASP .NET, Windows Forms, Django, JSP, MySQL, BATCH.  
-__Arquitecturas o Estilos de Arquitectura__: MVC, DAO, REST, Híbridos.  
-__Herramientas__: Git, Mockup Builder.   
-__Nivel de inglés__: Intermedio 
+#### Dominio
+<div id="contentDom">
+    <div class="dom"> <span class="dom-block"></span> <span class="dom-text">Basico</span></div>
+    <div class="dom"> <span class="dom-block"></span> <span class="dom-text">Intermedio</span></div>
+    <div class="dom"> <span class="dom-block"></span> <span class="dom-text">Avanzado</span></div>
+</div>
 
 ---
 
