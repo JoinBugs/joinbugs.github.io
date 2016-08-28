@@ -121,15 +121,15 @@ __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a speci
 
 ### Tecnologias con las que actualmente trabajo
 <section id="tecs">
-    <span title="click para ver mis proyectos en HTML5"><i style="font-size : 5em;color : rgb(234, 61, 19);" class="fa fa-html5" aria-hidden="true"></i></span>
-    <span title="Click para ver mis proyectos en JavaScript"><i style="font-size : 5em;color : rgb(245, 174, 9);" class="icon-javascript"></i></span>
-    <span title="Click para ver mis proyectos en CSS"><i style="font-size : 5em;color : rgb(9, 178, 245);" class="fa fa-css3" aria-hidden="true"></i></span>
-    <span title="Click para ver mis proyectos en Github"><i style="font-size : 5em;color : rgb(72, 65, 63);" class="fa fa-github" aria-hidden="true"></i></span>
-    <span title="Click para ver mis proyectos en Git"><i style="font-size : 5em;color : rgb(234, 61, 19);" class="fa fa-git" aria-hidden="true"></i></span>
-    <span title="Click para ver mis proyectos en Laravel5"><i style="font-size : 5em;color : rgb(234, 61, 19);" class="icon-laravel"></i></span>
-    <span title="Click para ver mis proyectos en Java"><i style="font-size : 5em;color : rgb(83, 131, 222);" class="icon-java"></i></span>
-    <span title="Click para ver mis proyectos en Python"><i style="font-size : 5em;color : rgb(25, 148, 35);" class="icon-python"></i></span>
-    <span title="Click para ver mis proyectos en MySQL"><i style="font-size : 5em;color : rgb(19, 163, 234);" class="icon-mysql"></i></span>
+    <span title="click para ver mis proyectos en HTML5"><a href="https://github.com/JoinBugs/VLSMJS"><i style="font-size : 5em;color : rgb(234, 61, 19);" class="fa fa-html5" aria-hidden="true"></i></a></span>
+    <span title="Click para ver mis proyectos en JavaScript"><a href="https://github.com/JoinBugs/GridJS"><i style="font-size : 5em;color : rgb(245, 174, 9);" class="icon-javascript"></i></a></span>
+    <span title="Click para ver mis proyectos en CSS"><a href="https://github.com/JoinBugs/menuCreatorJS"><i style="font-size : 5em;color : rgb(9, 178, 245);" class="fa fa-css3" aria-hidden="true"></i></a></span>
+    <span title="Click para ver mis proyectos en Github"><a href="https://github.com/JoinBugs"><i style="font-size : 5em;color : rgb(72, 65, 63);" class="fa fa-github" aria-hidden="true"></i></a></span>
+    <span title="Click para ver mis proyectos en Git"><a href="https://github.com/JoinBugs/LEARNGIT"><i style="font-size : 5em;color : rgb(234, 61, 19);" class="fa fa-git" aria-hidden="true"></i></a></span>
+    <span title="Click para ver mis proyectos en Laravel5"><a href="https://github.com/JoinBugs/demoLa5ApiYou"><i style="font-size : 5em;color : rgb(234, 61, 19);" class="icon-laravel"></i></a></span>
+    <span title="Click para ver mis proyectos en Java"><a href="https://github.com/JoinBugs/Java-Project-Electronics-Store"><i style="font-size : 5em;color : rgb(83, 131, 222);" class="icon-java"></i></a></span>
+    <span title="Click para ver mis proyectos en Python"><a href="https://github.com/JoinBugs/LearnPython"><i style="font-size : 5em;color : rgb(25, 148, 35);" class="icon-python"></i></a></span>
+    <span title="Click para ver mis proyectos en MySQL"><a href="https://github.com/JoinBugs/Java-Project-Electronics-Store/tree/master/DB/Scripts"><i style="font-size : 5em;color : rgb(19, 163, 234);" class="icon-mysql"></i></a></span>
     <span title="Click para ver mis proyectos en C#"><i style="font-size : 5em;color : rgb(54, 132, 23);" class="icon-csharp"></i></span>
 </section>
 ---
@@ -139,8 +139,8 @@ __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a speci
     <tbody>
         <tr><td>Sistemas Operativos</td><td class="dom-med">Windows</td><td class="dom-bas">GNU-Linux/Deepin</td></tr>
         <tr><td>Ofimática nivel medio</td><td class="dom-med">Word</td><td class="dom-med">PowerPoint</td> <td class="dom-med">Excel</td></tr>
-        <tr><td>Programación nivel avanzado</td><td class="dom-ava">JavaScript</td></tr>
-        <tr><td>Programación nivel medio</td><td class="dom-med">Python</td><td class="dom-med">C#</td><td class="dom-med">Java</td><td class="dom-bas">Android</td></tr>
+        <tr><td>Programación Web</td><td class="dom-ava">JavaScript</td></tr>
+        <tr><td>Programación General</td><td class="dom-med">Python</td><td class="dom-med">C#</td><td class="dom-med">Java</td><td class="dom-bas">Android</td></tr>
         <tr><td>Conocimiento en Tecnologías</td><td class="dom-ava">HTML5</td><td class="dom-med">CSS3</td><td class="dom-ava">Ajax</td><td class="dom-ava">DOM</td><td class="dom-ava">JSON</td><td class="dom-med">WebServices</td></tr>
         <tr><td class="empty"></td><td class="dom-med">ASP.NET</td><td class="dom-med">Windows Form</td><td class="dom-bas">Django</td><td class="dom-bas">JSP</td><td class="dom-med">MySQL</td><td class="dom-ava">BATCH</td></tr>
         <tr><td>Arquitecturas o Estilos de Arquitectura</td><td class="dom-ava">MVC</td><td class="dom-ava">DAO</td><td class="dom-med">REST</td><td class="dom-med">Híbridos</td></tr>
