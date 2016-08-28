@@ -118,7 +118,6 @@ permalink: /me/
 
 __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a special case JavaScript, i love the frameworks because i think that get the best of you.*__
 
----
 
 ### Tecnologias con las que actualmente trabajo
 <section id="tecs">
@@ -158,6 +157,10 @@ __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a speci
 </div>
 
 ---
+### Aqui algunos de mis logros
+[Microsoft Certified Professional][1]{:target="_blank"}  
+
+---
 
 ### Contactame
 
@@ -169,3 +172,5 @@ __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a speci
     <textarea placeholder="Adelante, porfavor comentame..."  class="form-control" name="asunto" id="asunto" cols="30" rows="10"></textarea> <br/>
     <input class="btn btn-info"  type="submit" value="Enviar">
 </form>
+
+[1]: /certificate.pdf
