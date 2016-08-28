@@ -115,7 +115,7 @@ __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a speci
 </section>
 ---
 
-### He aquí un poquito con lo que he trabajado
+### He aquí un poquito de lo que conosco
 <table id="tblTecs">
     <tbody>
         <tr><td>Sistemas Operativos</td><td>Windows</td><td>GNU-Linux/Deepin</td></tr>
