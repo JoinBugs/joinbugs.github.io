@@ -130,7 +130,7 @@ __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a speci
     <span title="Click para ver mis proyectos en Java"><a href="https://github.com/JoinBugs/Java-Project-Electronics-Store"><i style="font-size : 5em;color : rgb(83, 131, 222);" class="icon-java"></i></a></span>
     <span title="Click para ver mis proyectos en Python"><a href="https://github.com/JoinBugs/LearnPython"><i style="font-size : 5em;color : rgb(25, 148, 35);" class="icon-python"></i></a></span>
     <span title="Click para ver mis proyectos en MySQL"><a href="https://github.com/JoinBugs/Java-Project-Electronics-Store/tree/master/DB/Scripts"><i style="font-size : 5em;color : rgb(19, 163, 234);" class="icon-mysql"></i></a></span>
-    <span title="Click para ver mis proyectos en C#"><i style="font-size : 5em;color : rgb(54, 132, 23);" class="icon-csharp"></i></span>
+    <span title="Click para ver mis proyectos en C#"><a href="http://sicenet.itsur.edu.mx:8088/"><i style="font-size : 5em;color : rgb(54, 132, 23);" class="icon-csharp"></i></a></span>
 </section>
 ---
 
