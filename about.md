@@ -100,7 +100,7 @@ __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a speci
 
 ---
 
-### Tecnologias que actualmente manejo
+### Tecnologias con las que actualmente trabajo
 <section id="tecs">
     <span title="click para ver mis proyectos en HTML5"><i style="font-size : 5em;color : rgb(234, 61, 19);" class="fa fa-html5" aria-hidden="true"></i></span>
     <span title="Click para ver mis proyectos en JavaScript"><i style="font-size : 5em;color : rgb(245, 174, 9);" class="icon-javascript"></i></span>
