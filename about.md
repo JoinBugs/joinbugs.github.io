@@ -64,7 +64,8 @@ permalink: /me/
 
 #contentDom
 {
-  background-color : rgba( 0, 0, 0, .1 );
+  box-shadow : 0px 0px 1px rgba( 0, 0, 0, .5 ) inset;
+  padding : 4px;
 }
 
 #contentDom .dom-block
@@ -74,26 +75,45 @@ permalink: /me/
   padding : 6px;
 }
 
-#contentDom .dom:first-child .dom-block
+#contentDom .dom:first-child .dom-block, .dom-bas
 {
   border : 1px solid rgba( 200, 90, 0, .7 );
   box-shadow : 0px 0px 2px rgba( 200, 90, 0, .7 ) inset;
+  cursor : pointer;
+  transition : all .7s ease;
 }
 
-#contentDom .dom:nth-last-child(2) .dom-block
+#contentDom .dom:nth-last-child(2) .dom-block, .dom-med
 {
   border : 1px solid rgba( 0, 200, 90, .7 );
   box-shadow : 0px 0px 2px rgba( 0, 200, 90, .7 ) inset;
+  cursor : pointer;
+  transition : all .7s ease;
 }
 
-#contentDom .dom:last-child .dom-block
+#contentDom .dom:last-child .dom-block, .dom-ava
 {
   border : 1px solid rgba( 0, 90, 255, .7 );
   box-shadow : 0px 0px 2px rgba( 0, 90, 255, .7 ) inset;
+  cursor : pointer;
+  transition : all .7s ease;
 }
 
+/*Hover*/
+#contentDom .dom:first-child .dom-block:hover, .dom-bas:hover
+{
+  box-shadow : 0px 0px 20px rgba( 200, 90, 0, .7 ) inset;
+}
 
+#contentDom .dom:nth-last-child(2) .dom-block:hover, .dom-med:hover
+{
+  box-shadow : 0px 0px 20px rgba( 0, 200, 90, .7 ) inset;
+}
 
+#contentDom .dom:last-child .dom-block:hover, .dom-ava:hover
+{
+  box-shadow : 0px 0px 20px rgba( 0, 90, 255, .7 ) inset;
+}
 </style>
 
 __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a special case JavaScript, i love the frameworks because i think that get the best of you.*__
@@ -118,15 +138,15 @@ __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a speci
 ### He aquí un poquito de lo que conosco
 <table id="tblTecs">
     <tbody>
-        <tr><td>Sistemas Operativos</td><td>Windows</td><td>GNU-Linux/Deepin</td></tr>
-        <tr><td>Ofimática nivel medio</td><td>Word</td><td>PowerPoint</td> <td>Excel</td></tr>
-        <tr><td>Programación nivel avanzado</td><td>JavaScript</td></tr>
-        <tr><td>Programación nivel medio</td><td>Python</td><td>C#</td><td>Java</td><td>Android</td></tr>
-        <tr><td>Conocimiento en Tecnologías</td><td>HTML5</td><td>CSS3</td><td>Ajax</td><td>DOM</td><td>JSON</td><td>WebServices</td></tr>
-        <tr><td class="empty"></td><td>ASP.NET</td><td>Windows Form</td><td>Django</td><td>JSP</td><td>MySQL</td><td>BATCH</td></tr>
-        <tr><td>Arquitecturas o Estilos de Arquitectura</td><td>MVC</td><td>DAO</td><td>REST</td><td>Híbridos</td></tr>
-        <tr><td>Herramientas</td><td>Git</td><td>Mockup Builder</td></tr>
-        <tr><td>Nivel de inglés</td><td>Intermedio</td></tr>
+        <tr><td>Sistemas Operativos</td><td class="dom-med">Windows</td><td class="dom-bas">GNU-Linux/Deepin</td></tr>
+        <tr><td>Ofimática nivel medio</td><td class="dom-med">Word</td><td class="dom-med">PowerPoint</td> <td class="dom-med">Excel</td></tr>
+        <tr><td>Programación nivel avanzado</td><td class="dom-ava">JavaScript</td></tr>
+        <tr><td>Programación nivel medio</td><td class="dom-med">Python</td><td class="dom-med">C#</td><td class="dom-med">Java</td><td class="dom-bas">Android</td></tr>
+        <tr><td>Conocimiento en Tecnologías</td><td class="dom-ava">HTML5</td><td class="dom-med">CSS3</td><td class="dom-ava">Ajax</td><td class="dom-ava">DOM</td><td class="dom-ava">JSON</td><td class="dom-med">WebServices</td></tr>
+        <tr><td class="empty"></td><td class="dom-med">ASP.NET</td><td class="dom-med">Windows Form</td><td class="dom-bas">Django</td><td class="dom-bas">JSP</td><td class="dom-med">MySQL</td><td class="dom-ava">BATCH</td></tr>
+        <tr><td>Arquitecturas o Estilos de Arquitectura</td><td class="dom-ava">MVC</td><td class="dom-ava">DAO</td><td class="dom-med">REST</td><td class="dom-med">Híbridos</td></tr>
+        <tr><td>Herramientas</td><td class="dom-med">Git</td><td class="dom-med">Mockup Builder</td></tr>
+        <tr><td>Nivel de inglés</td><td class="dom-med">Intermedio</td></tr>
     </tbody>
 </table>
 
