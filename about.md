@@ -157,6 +157,7 @@ __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a speci
 </div>
 
 ---
+
 ### Aqui algunos de mis logros
 
 [Microsoft Certified Professional][1]{:target="_blank"}  
