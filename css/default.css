@@ -21,44 +21,70 @@ body
    background-color : rgba( 255, 255, 255, .7 );
 }
 
+#navigation
+{
+  position: absolute;
+  top : 0;
+  left : 0;
+}
+
 #navigation a
 {
   text-decoration : none;
-  color : rgba( 0, 0, 0, .8 );
+  color : rgba( 255, 255, 255, 1 );
   transition : all .7s ease;
+  display: block;
+  background-color : rgba( 250, 250, 250, .5 );
+  margin : 20px 0;
+  text-align: left;
+  border-radius : 1px;
+  padding : 10px;
 }
 
 #navigation a:hover
 {
-  
+   background-color : rgba(0, 90, 200, .8 );
 }
 
 #navigation a:before
 {
   content : '';
   background-color : rgba(0, 200, 90, .8 );
-  position: absolute;
+  position: relative;
   height : 5px;
   border-radius : 1px;
-  bottom : 25px;
-  width : 0;
   transition : all .7s ease;
-  opacity: 0;
+  left : -10px;
+}
+
+#navigation a:first-child:before
+{
+  
 }
 
 #navigation a:hover:before
 {
-  opacity: 1;
+  padding : 12px 100px;
 }
 
 #navigation a:hover:first-child:before
 {
-  width : 40px;
+  content : 'Conoce como se hace la WEB';
 }
 
-#navigation a:hover:last-child:before
+#navigation a:hover:nth-child(2):before
 {
-  width : 95px;
+  content : 'Quien Soy, Que hago?';
+}
+
+#navigation a:hover:nth-child(3):before
+{
+  content : 'Te podria ayudar en algo?';
+}
+
+#navigation a:hover:nth-child(4):before
+{
+  content : 'Sigueme en';
 }
 
 .footer a
