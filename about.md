@@ -100,20 +100,21 @@ permalink: /me/
 }
 
 /*Hover*/
-#contentDom .dom:first-child .dom-block:hover, .dom-bas:hover
+.dom-bas:hover, .dom-bas.active, #contentDom .dom:first-child .active
 {
-  box-shadow : 0px 0px 20px rgba( 200, 90, 0, .7 ) inset;
+  box-shadow : 0px 0px 50px rgba( 200, 90, 0, .7 ) inset;
 }
 
-#contentDom .dom:nth-last-child(2) .dom-block:hover, .dom-med:hover
+.dom-med:hover, .dom-med.active, #contentDom .dom:nth-last-child(2) .active
 {
-  box-shadow : 0px 0px 20px rgba( 0, 200, 90, .7 ) inset;
+  box-shadow : 0px 0px 50px rgba( 0, 200, 90, .7 ) inset;
 }
 
-#contentDom .dom:last-child .dom-block:hover, .dom-ava:hover
+.dom-ava:hover, .dom-ava.active,  #contentDom .dom:last-child .active
 {
-  box-shadow : 0px 0px 20px rgba( 0, 90, 255, .7 ) inset;
+  box-shadow : 0px 0px 50px rgba( 0, 90, 255, .7 ) inset;
 }
+
 
 body
 {
@@ -130,6 +131,26 @@ body
   box-shadow: none;
 }
 </style>
+
+<script>
+    (function()
+        {
+            window.addEventListener( 'load', init, false );
+
+            function init()
+            {
+                ([]).forEach.call( document.querySelectorAll( '.dom-block' ), function( dom )
+                {
+                    dom.addEventListener( 'click', function( e )
+                    {
+                        dom.classList.toggle( 'active' );
+                        ([]).forEach.call( document.querySelectorAll( '.dom-' + dom.parentNode.id ), function( tec ) { tec.classList.toggle( 'active' ) } );
+                    }, 
+                      false );
+                });
+            }
+        })();
+</script>
 
 __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a special case JavaScript, i love the frameworks because i think that get the best of you.*__
 
@@ -166,9 +187,9 @@ __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a speci
 
 #### Dominio
 <div id="contentDom">
-    <div class="dom"> <span class="dom-block"></span> <span class="dom-text">Basico</span></div>
-    <div class="dom"> <span class="dom-block"></span> <span class="dom-text">Intermedio</span></div>
-    <div class="dom"> <span class="dom-block"></span> <span class="dom-text">Avanzado</span></div>
+    <div id="bas" class="dom"> <span class="dom-block"></span> <span class="dom-text">Basico</span></div>
+    <div id="med" class="dom"> <span class="dom-block"></span> <span class="dom-text">Intermedio</span></div>
+    <div id="ava" class="dom"> <span class="dom-block"></span> <span class="dom-text">Avanzado</span></div>
 </div>
 
 ---

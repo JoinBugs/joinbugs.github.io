@@ -20,3 +20,56 @@ body
    box-shadow : 5px 5px 23px rgba( 0, 0, 0, .2 );
    background-color : rgba( 255, 255, 255, .7 );
 }
+
+#navigation a
+{
+  text-decoration : none;
+  color : rgba( 0, 0, 0, .8 );
+  transition : all .7s ease;
+}
+
+#navigation a:hover
+{
+  
+}
+
+#navigation a:before
+{
+  content : '';
+  background-color : rgba(0, 200, 90, .8 );
+  position: absolute;
+  height : 5px;
+  border-radius : 1px;
+  bottom : 25px;
+  width : 0;
+  transition : all .7s ease;
+  opacity: 0;
+}
+
+#navigation a:hover:before
+{
+  opacity: 1;
+}
+
+#navigation a:hover:first-child:before
+{
+  width : 40px;
+}
+
+#navigation a:hover:last-child:before
+{
+  width : 95px;
+}
+
+.footer a
+{
+  display: inline-block;
+  transition : all .5s ease;
+  margin : 5px 0;
+}
+
+.footer a:hover
+{
+  transform : scale(2);
+  margin : 0 40px;
+}
