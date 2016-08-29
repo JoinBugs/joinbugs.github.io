@@ -1,6 +1,13 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Tamma';
+
 body
 {
   background-color : rgba( 0, 0, 0, .1 );
+}
+
+body *
+{
+  font-family: 'Baloo Tamma', cursive;
 }
 
 .nav-main
@@ -64,7 +71,7 @@ body
 
 #navigation a:hover:before
 {
-  padding : 12px 100px;
+  padding : 7px 100px;
 }
 
 #navigation a:hover:first-child:before
