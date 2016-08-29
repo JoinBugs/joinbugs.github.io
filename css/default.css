@@ -3,6 +3,17 @@ body
   background-color : rgba( 0, 0, 0, .1 );
 }
 
+.nav-main
+{
+  display : block;
+  height : 400px;
+  background-image : url( '../images/code.jpg' );
+  background-repeat : no-repeat;
+  background-position : center;
+  background-size : cover;
+  background-attachment : fixed;
+}
+
 #main
 {
    box-shadow : 5px 5px 23px rgba( 0, 0, 0, .2 );
