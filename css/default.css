@@ -8,6 +8,7 @@ body
   display : block;
   height : 400px;
   background-image : url( '../images/code.jpg' );
+  background-color : rgba( 100, 20, 10, .9 );
   background-repeat : no-repeat;
   background-position : center;
   background-size : cover;
