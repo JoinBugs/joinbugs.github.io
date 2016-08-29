@@ -114,6 +114,21 @@ permalink: /me/
 {
   box-shadow : 0px 0px 20px rgba( 0, 90, 255, .7 ) inset;
 }
+
+body
+{
+  background-color : rgba( 255, 255, 255, .8) ;  
+}
+
+.wrapper-masthead, .wrapper-footer
+{
+  background-color : rgba( 0, 0, 0, .1 );
+}
+
+#main
+{
+  box-shadow: none;
+}
 </style>
 
 __*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a special case JavaScript, i love the frameworks because i think that get the best of you.*__
