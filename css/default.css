@@ -62,11 +62,15 @@ body *
   text-align: left;
   border-radius : 1px;
   padding : 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width : 140px;
 }
 
 #navigation a:hover
 {
-   background-color : rgba(0, 90, 200, .8 );
+  background-color : rgba(0, 90, 200, .8 );
+  width : 570px;
 }
 
 #navigation a:before
@@ -78,6 +82,8 @@ body *
   border-radius : 1px;
   transition : all .7s ease;
   left : -10px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 #navigation a:first-child:before
