@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Baloo+Tamma';
+@import 'https://fonts.googleapis.com/css?family=Baloo+Tamma|Indie+Flower|Roboto';
 
 body
 {
@@ -8,6 +8,22 @@ body
 body *
 {
   font-family: 'Baloo Tamma', cursive;
+}
+
+.post *
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+.highlight *
+{
+  font-family: 'Baloo Tamma', cursive;
+}
+
+.site-description
+{
+  font-family: 'Indie Flower', cursive;
+  font-size : 1.3em;
 }
 
 .nav-main
