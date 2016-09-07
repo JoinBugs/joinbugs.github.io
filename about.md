@@ -10,7 +10,8 @@ permalink: /me/
     border : 1px solid rgba( 0, 0, 0, .3 );
     padding : 30px;
     border-radius : 3px;
-    box-shadow : 0px 0px 5px rgba( 0, 100, 250, .8 );
+    box-shadow : 0px 0px 50px rgba( 0, 100, 250, .8 ) inset;
+    background-color : rgba( 250, 250, 250, 1 );
 }
 
 #tecs span
@@ -19,12 +20,21 @@ permalink: /me/
   margin : 18px;
   transition : all .6s ease;
   cursor : pointer;
+  text-align: center;
+}
+
+#tecs span:before
+{
+  content : '';
+  position: absolute;
+  padding : 50px;
+  border-radius : 50px;
+  background-color : rgba( 0, 0, 0, .1 );
+  box-shadow : 3px 3px 5px rgba(0, 0, 0, .7 );
 }
 
 #tecs span:hover
 {
-  box-shadow : 5px 5px 3px rgba( 0, 0, 0, .3 );
-  border-radius : 2px;
   transform : rotate( 1turn );
 }
 
@@ -43,7 +53,7 @@ permalink: /me/
   transition : all .8s ease;
 }
 
-#tblTecs tr td:first-child:hover
+#tblTecs tr td:first-child:hover, #tblTecs tr td.active:first-child
 {
   background-color : rgba( 0, 90, 200, .8 );
   color : white;
@@ -144,7 +154,10 @@ body
                     dom.addEventListener( 'click', function( e )
                     {
                         dom.classList.toggle( 'active' );
-                        ([]).forEach.call( document.querySelectorAll( '.dom-' + dom.parentNode.id ), function( tec ) { tec.classList.toggle( 'active' ) } );
+                        ([]).forEach.call( document.querySelectorAll( '.dom-' + dom.parentNode.id ), function( tec ) 
+                            { 
+                                tec.classList.toggle( 'active' ) 
+                            } );
                     }, 
                       false );
                 });
@@ -152,7 +165,7 @@ body
         })();
 </script>
 
-__*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a special case JavaScript, i love the frameworks because i think that get the best of you.*__
+*I am an apassioned for the web technologies, like HTML 5, CSS3 but in a special case JavaScript, i love the frameworks because i think that get the best of you.*
 
 
 ### Tecnologias con las que actualmente trabajo
