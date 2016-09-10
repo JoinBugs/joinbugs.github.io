@@ -10,6 +10,15 @@ body *
   font-family: 'Baloo Tamma', cursive;
 }
 
+.post
+{
+  background-color : rgba( 255, 255, 255, .7 );
+  position: relative;
+  padding : 0px 20px;
+  margin : 10px 0;
+  box-shadow : 5px 5px 23px rgba( 0, 0, 0, .2 );
+}
+
 .post *
 {
   font-family: 'Roboto', sans-serif;
@@ -38,11 +47,7 @@ body *
   background-attachment : fixed;
 }
 
-#main
-{
-   box-shadow : 5px 5px 23px rgba( 0, 0, 0, .2 );
-   background-color : rgba( 255, 255, 255, .7 );
-}
+
 
 #navigation
 {
