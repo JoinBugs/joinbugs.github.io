@@ -2,6 +2,7 @@
 layout: page
 title: Algo Cursi sobre mi
 permalink: /me/
+published: true
 ---
 
 <style>
@@ -23,19 +24,9 @@ permalink: /me/
   text-align: center;
 }
 
-#tecs span:before
-{
-  content : '';
-  position: absolute;
-  padding : 50px;
-  border-radius : 50px;
-  background-color : rgba( 0, 0, 0, .1 );
-  box-shadow : 3px 3px 5px rgba(0, 0, 0, .7 );
-}
-
 #tecs span:hover
 {
-  transform : rotate( 1turn );
+  transform : rotate( 2turn );
 }
 
 #tblTecs tr td:first-child
@@ -140,6 +131,7 @@ body
 {
   box-shadow: none;
 }
+
 </style>
 
 <script>
