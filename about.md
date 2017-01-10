@@ -201,7 +201,7 @@ body
 
 ### Aqui algunos de mis logros
 
-[Microsoft Certified Professional][1]{:target="_blank"}  
+[![Microsoft Certified Professional][2]][1]{:target="_blank"}
 
 ---
 
@@ -216,4 +216,5 @@ body
     <input class="btn btn-info"  type="submit" value="Enviar">
 </form>
 
-[1]: /certificate.pdf
+[1]: ../docs/certificate.pdf
+[2]: ../images/MCP.png
