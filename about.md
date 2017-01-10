@@ -205,6 +205,10 @@ body
 
 ---
 
+[Por si las moscas, aqui mi CV.][3]
+
+---
+
 ### Contactame
 
 <form action="https://formspree.io/buggerdeveloper@gmail.com"
@@ -218,3 +222,4 @@ body
 
 [1]: ../docs/certificate.pdf
 [2]: ../images/MCP.png
+[3]: ../docs/CVAndresCornejoCruz.doc
