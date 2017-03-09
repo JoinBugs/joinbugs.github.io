@@ -26,7 +26,7 @@ published: true
 
 #tecs span:hover
 {
-  transform : rotate( 2turn );
+  transform : scale(1.1) translateY(10px);
 }
 
 #tblTecs tr td:first-child
@@ -98,6 +98,57 @@ published: true
   box-shadow : 0px 0px 2px rgba( 0, 90, 255, .7 ) inset;
   cursor : pointer;
   transition : all .7s ease;
+}
+
+/*paint tecnologies when hover get be trigger*/
+.tec
+{
+  font-size : 5em;
+  transition : all .4s ease-in;
+}
+
+.fa-html5:hover
+{
+  color : rgb(234, 61, 19);
+}
+
+.icon-javascript:hover
+{
+   color : rgb(245, 174, 9); 
+}
+
+.fa-css3:hover
+{
+   color : rgb(9, 178, 245);
+}
+
+.fa-github:hover
+{
+   color : rgb(72, 65, 63); 
+}
+.fa-git:hover
+{
+   color: rgb(234, 61, 19);
+} 
+.icon-laravel:hover
+{
+   color : rgb(234, 61, 19);
+}  
+.icon-java:hover
+{
+   color : rgb(83, 131, 222);
+} 
+.icon-python:hover
+{
+   color : rgb(25, 148, 35);
+} 
+.icon-mysql:hover
+{
+   color : rgb(19, 163, 234);
+}
+.icon-csharp:hover
+{
+   color : rgb(54, 132, 23);
 }
 
 /*Hover*/
@@ -188,16 +239,16 @@ body
 
 ### Tecnologias con las que actualmente trabajo
 <section id="tecs">
-    <span title="click para ver mis proyectos en HTML5"><a href="https://github.com/JoinBugs/VLSMJS"><i style="font-size : 5em;color : rgb(234, 61, 19);" class="fa fa-html5" aria-hidden="true"></i></a></span>
-    <span title="Click para ver mis proyectos en JavaScript"><a href="https://github.com/JoinBugs/GridJS"><i style="font-size : 5em;color : rgb(245, 174, 9);" class="icon-javascript"></i></a></span>
-    <span title="Click para ver mis proyectos en CSS"><a href="https://github.com/JoinBugs/menuCreatorJS"><i style="font-size : 5em;color : rgb(9, 178, 245);" class="fa fa-css3" aria-hidden="true"></i></a></span>
-    <span title="Click para ver mis proyectos en Github"><a href="https://github.com/JoinBugs"><i style="font-size : 5em;color : rgb(72, 65, 63);" class="fa fa-github" aria-hidden="true"></i></a></span>
-    <span title="Click para ver mis proyectos en Git"><a href="https://github.com/JoinBugs/LEARNGIT"><i style="font-size : 5em;color : rgb(234, 61, 19);" class="fa fa-git" aria-hidden="true"></i></a></span>
-    <span title="Click para ver mis proyectos en Laravel5"><a href="https://github.com/JoinBugs/demoLa5ApiYou"><i style="font-size : 5em;color : rgb(234, 61, 19);" class="icon-laravel"></i></a></span>
-    <span title="Click para ver mis proyectos en Java"><a href="https://github.com/JoinBugs/Java-Project-Electronics-Store"><i style="font-size : 5em;color : rgb(83, 131, 222);" class="icon-java"></i></a></span>
-    <span title="Click para ver mis proyectos en Python"><a href="https://github.com/JoinBugs/LearnPython"><i style="font-size : 5em;color : rgb(25, 148, 35);" class="icon-python"></i></a></span>
-    <span title="Click para ver mis proyectos en MySQL"><a href="https://github.com/JoinBugs/Java-Project-Electronics-Store/tree/master/DB/Scripts"><i style="font-size : 5em;color : rgb(19, 163, 234);" class="icon-mysql"></i></a></span>
-    <span title="Click para ver mis proyectos en C#"><a href="http://sicenet.itsur.edu.mx:8088/"><i style="font-size : 5em;color : rgb(54, 132, 23);" class="icon-csharp"></i></a></span>
+    <span title="click para ver mis proyectos en HTML5"><a href="https://github.com/JoinBugs/VLSMJS"><i class="fa fa-html5 tec" aria-hidden="true"></i></a></span>
+    <span title="Click para ver mis proyectos en JavaScript"><a href="https://github.com/JoinBugs/GridJS"><i class="icon-javascript tec"></i></a></span>
+    <span title="Click para ver mis proyectos en CSS"><a href="https://github.com/JoinBugs/menuCreatorJS"><i class="fa fa-css3 tec" aria-hidden="true"></i></a></span>
+    <span title="Click para ver mis proyectos en Github"><a href="https://github.com/JoinBugs"><i class="fa fa-github tec" aria-hidden="true"></i></a></span>
+    <span title="Click para ver mis proyectos en Git"><a href="https://github.com/JoinBugs/LEARNGIT"><i class="fa fa-git tec" aria-hidden="true"></i></a></span>
+    <span title="Click para ver mis proyectos en Laravel5"><a href="https://github.com/JoinBugs/demoLa5ApiYou"><i class="icon-laravel tec"></i></a></span>
+    <span title="Click para ver mis proyectos en Java"><a href="https://github.com/JoinBugs/Java-Project-Electronics-Store"><i  class="icon-java tec"></i></a></span>
+    <span title="Click para ver mis proyectos en Python"><a href="https://github.com/JoinBugs/LearnPython"><i class="icon-python tec"></i></a></span>
+    <span title="Click para ver mis proyectos en MySQL"><a href="https://github.com/JoinBugs/Java-Project-Electronics-Store/tree/master/DB/Scripts"><i  class="icon-mysql tec"></i></a></span>
+    <span title="Click para ver mis proyectos en C#"><a href="http://sicenet.itsur.edu.mx:8088/"><i class="icon-csharp tec"></i></a></span>
 </section>
 ---
 
