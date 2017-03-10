@@ -139,16 +139,42 @@ body
         {
             window.addEventListener( 'load', init, false );
 
+            /*function categoryClean()
+            {
+              ([]).forEach.call( document.querySelectorAll( '#tblTecs tr td:first-child' ), function( category )
+              {
+                  category.classList.remove( 'active' );
+              });
+            }*/
+
+            function activeCategory( dom, tec )
+            {
+              category = tec.parentNode.firstChild;
+              if( category.textContent.trim() === '' )
+              {
+                var rows  = tec.parentNode.parentNode.rows,
+                    index = ([]).indexOf.call( rows, tec.parentNode );
+
+                category = rows[ index - 1 ].cells[ 0 ];
+              }
+              if( dom.classList.contains( 'active' ) )
+                category.classList.add( 'active' );
+              else
+                category.classList.remove( 'active' );
+            }
+
             function init()
             {
                 ([]).forEach.call( document.querySelectorAll( '.dom-block' ), function( dom )
                 {
                     dom.addEventListener( 'click', function( e )
                     {
+                        //categoryClean();
                         dom.classList.toggle( 'active' );
                         ([]).forEach.call( document.querySelectorAll( '.dom-' + dom.parentNode.id ), function( tec ) 
-                            { 
-                                tec.classList.toggle( 'active' ) 
+                            {
+                                tec.classList.toggle( 'active' );
+                                activeCategory( dom, tec );
                             } );
                     }, 
                       false );
