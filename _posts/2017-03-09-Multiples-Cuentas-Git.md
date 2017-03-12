@@ -6,7 +6,9 @@ published: true
 
 #### Seguramente en alguna ocasión se te presento la problemática de como podrías manejar más de una cuenta de usuario...
 
-en algunos de los servidores que almacenan tus repositorios remotos en la misma maquina cliente con git, en esta ocasión expondré como resolver el problema puntualmente para el caso específico siguiente : teniendo en cuenta la tan afamada plataforma GitHub y una maquina cliente con sistema operativo Windows, ya que en Linux nunca he tenido este problema XD, pues sin más preámbulo comencemos:
+![Git&GitHub](https://i.ytimg.com/vi/FQsBmnZvBdc/maxresdefault.jpg)
+
+En algunos de los servidores que almacenan tus repositorios remotos en la misma maquina cliente con git, en esta ocasión expondré como resolver el problema puntualmente para el caso específico siguiente : teniendo en cuenta la tan afamada plataforma GitHub y una maquina cliente con sistema operativo Windows, ya que en Linux nunca he tenido este problema XD, pues sin más preámbulo comencemos:
 
 Básicamente listare el proceso que sigue para dar solvencia al problema a tratar:
 
