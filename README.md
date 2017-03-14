@@ -1,2 +1,2 @@
 ### My Blog, for the Community.
-[-> Go Here](joinbugs.github.io)
+[-> Go Here](https://joinbugs.github.io/)
