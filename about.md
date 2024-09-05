@@ -278,6 +278,7 @@ body
 
 ### Aqui algunos de mis logros
 
+[![Microsoft Azure Certified][2]][4]{:target="_blank"}
 [![Microsoft Certified Professional][2]][1]{:target="_blank"}
 
 ---
@@ -300,3 +301,4 @@ body
 [1]: ../docs/certificate.pdf
 [2]: ../images/MCP.png
 [3]: ../docs/CVAndresCornejoCruz.doc
+[4]: ../docs/AZ-900-Certificate.pdf
